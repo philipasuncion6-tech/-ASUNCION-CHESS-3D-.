@@ -32,6 +32,7 @@ jobs:
 
       - name: Build website
         run: npm run build -- --base="/-ASUNCION-CHESS-3D-/"
+        
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
